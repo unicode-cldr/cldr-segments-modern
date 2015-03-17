@@ -4,5 +4,9 @@
   "dependencies": {
     "cldr-core": "27.0.0"
   },
-  "main": "segments/**/*.json"
+  "main": "segments/**/*.json",
+  "ignore": [
+    ".gitattributes",
+    "README.md"
+  ]
 }
