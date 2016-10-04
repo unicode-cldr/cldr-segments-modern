@@ -2,8 +2,8 @@
   "segments": {
     "identity": {
       "version": {
-        "_number": "$Revision: 11914 $",
-        "_cldrVersion": "29"
+        "_number": "$Revision: 12925 $",
+        "_cldrVersion": "30"
       },
       "language": "ja"
     },
@@ -24,18 +24,18 @@
             "$Hiragana": "\\\\p{Hiragana}"
           },
           {
-            "$Hiragana": "($Hiragana $X)"
+            "$Hiragana": "($Hiragana $FEZ*)"
           },
           {
             "$Ideographic": "[[\\\\p{Ideographic}] [\\u3005 \\u3007 \\u303B]]"
           },
           {
-            "$Ideographic": "($Ideographic $X)"
+            "$Ideographic": "($Ideographic $FEZ*)"
           }
         ],
         "segmentRules": {
-          "13.05": " $Hiragana × $Hiragana ",
-          "13.06": " $Ideographic × $Ideographic "
+          "13.3": " $Hiragana × $Hiragana ",
+          "13.4": " $Ideographic × $Ideographic "
         }
       }
     }

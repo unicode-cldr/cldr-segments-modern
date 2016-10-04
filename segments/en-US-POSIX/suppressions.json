@@ -2,8 +2,8 @@
   "segments": {
     "identity": {
       "version": {
-        "_number": "$Revision: 11914 $",
-        "_cldrVersion": "29"
+        "_number": "$Revision: 12925 $",
+        "_cldrVersion": "30"
       },
       "language": "en",
       "territory": "US",
@@ -13,10 +13,10 @@
       "WordBreak": {
         "variables": [
           {
-            "$MidLetter": "[[$MidLetter]-[\\\\:]]"
+            "$MidNumLet": "[[$MidNumLet]-[.]]"
           },
           {
-            "$MidNumLet": "[[$MidNumLet]-[.]]"
+            "$MidLetter": "[[$MidLetter]-[\\\\:]]"
           },
           {
             "$MidNum": "[[$MidNum] [.]]"
