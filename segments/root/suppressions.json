@@ -2,8 +2,8 @@
   "segments": {
     "identity": {
       "version": {
-        "_number": "$Revision: 12925 $",
-        "_cldrVersion": "30"
+        "_number": "$Revision: 13050 $",
+        "_cldrVersion": "30.0.2"
       },
       "language": "root"
     },
@@ -78,7 +78,7 @@
           "10": " ($E_Base | $E_Base_GAZ) $Extend* × $E_Modifier ",
           "11": " ($Extended_Pict | $EmojiNRK) $ZWJ × ($Extended_Pict | $EmojiNRK) ",
           "12": " ^$Prepend* $Regional_Indicator $Regional_Indicator ÷ $Regional_Indicator ",
-          "13": " ^$Prepend* $Regional_Indicator $Regional_Indicator "
+          "13": " ^$Prepend* $Regional_Indicator × $Regional_Indicator "
         }
       },
       "LineBreak": {
@@ -420,7 +420,8 @@
           "29": " $IS × ($AL | $HL) ",
           "30.01": " ($AL | $HL | $NU) × $OP ",
           "30.02": " $CP × ($AL | $HL | $NU) ",
-          "30.11": " $RI × $RI ",
+          "30.11": " sot ($RI $RI)* $RI × $RI ",
+          "30.12": " [^$RI] ($RI $RI)* $RI × $RI ",
           "30.21": " $EB × $EM "
         }
       },
