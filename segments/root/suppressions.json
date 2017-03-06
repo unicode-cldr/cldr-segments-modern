@@ -2,8 +2,8 @@
   "segments": {
     "identity": {
       "version": {
-        "_number": "$Revision: 13050 $",
-        "_cldrVersion": "30.0.3"
+        "_number": "$Revision: 13292 $",
+        "_cldrVersion": "31"
       },
       "language": "root"
     },
@@ -76,7 +76,7 @@
           "9.1": " × $SpacingMark ",
           "9.2": " $Prepend × ",
           "10": " ($E_Base | $E_Base_GAZ) $Extend* × $E_Modifier ",
-          "11": " ($Extended_Pict | $EmojiNRK) $ZWJ × ($Extended_Pict | $EmojiNRK) ",
+          "11": " ($Extended_Pict | $EmojiNRK) $Extend* $ZWJ × ($Extended_Pict | $EmojiNRK) ",
           "12": " ^$Prepend* $Regional_Indicator $Regional_Indicator ÷ $Regional_Indicator ",
           "13": " ^$Prepend* $Regional_Indicator × $Regional_Indicator "
         }
