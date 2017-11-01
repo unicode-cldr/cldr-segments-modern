@@ -2,8 +2,8 @@
   "segments": {
     "identity": {
       "version": {
-        "_number": "$Revision: 13292 $",
-        "_cldrVersion": "31.0.1"
+        "_number": "$Revision: 13761 $",
+        "_cldrVersion": "32"
       },
       "language": "root"
     },
@@ -26,7 +26,7 @@
             "$ZWJ": "\\\\p{Grapheme_Cluster_Break=ZWJ}"
           },
           {
-            "$Regional_Indicator": "\\\\p{Grapheme_Cluster_Break=Regional_Indicator}"
+            "$RI": "\\\\p{Grapheme_Cluster_Break=Regional_Indicator}"
           },
           {
             "$Prepend": "\\\\p{Grapheme_Cluster_Break=Prepend}"
@@ -50,16 +50,16 @@
             "$LVT": "\\\\p{Grapheme_Cluster_Break=LVT}"
           },
           {
-            "$E_Base": "[[\\\\p{Grapheme_Cluster_Break = EB}] \\\\U0001F3C2\\\\U0001F3C7\\\\U0001F3CC\\\\U0001F46A-\\\\U0001F46D\\\\U0001F46F\\\\U0001F574\\\\U0001F6CC]"
+            "$E_Base": "\\\\p{Grapheme_Cluster_Break=E_Base}"
           },
           {
-            "$E_Modifier": "\\\\p{Grapheme_Cluster_Break = EM}"
+            "$E_Modifier": "\\\\p{Grapheme_Cluster_Break=E_Modifier}"
           },
           {
-            "$Extended_Pict": "[\\\\U0001F774-\\\\U0001F77F\\u2700-\\u2701\\u2703-\\u2704\\u270E\\u2710-\\u2711\\u2765-\\u2767\\\\U0001F030-\\\\U0001F093\\\\U0001F094-\\\\U0001F09F\\\\U0001F10D-\\\\U0001F10F\\\\U0001F12F\\\\U0001F16C-\\\\U0001F16F\\\\U0001F1AD-\\\\U0001F1E5\\\\U0001F203-\\\\U0001F20F\\\\U0001F23C-\\\\U0001F23F\\\\U0001F249-\\\\U0001F24F\\\\U0001F252-\\\\U0001F2FF\\\\U0001F7D5-\\\\U0001F7FF\\\\U0001F000-\\\\U0001F003\\\\U0001F005-\\\\U0001F02B\\\\U0001F02C-\\\\U0001F02F\\\\U0001F322-\\\\U0001F323\\\\U0001F394-\\\\U0001F395\\\\U0001F398\\\\U0001F39C-\\\\U0001F39D\\\\U0001F3F1-\\\\U0001F3F2\\\\U0001F3F6\\\\U0001F4FE\\\\U0001F53E-\\\\U0001F548\\\\U0001F54F\\\\U0001F568-\\\\U0001F56E\\\\U0001F571-\\\\U0001F572\\\\U0001F57B-\\\\U0001F586\\\\U0001F588-\\\\U0001F589\\\\U0001F58E-\\\\U0001F58F\\\\U0001F591-\\\\U0001F594\\\\U0001F597-\\\\U0001F5A3\\\\U0001F5A6-\\\\U0001F5A7\\\\U0001F5A9-\\\\U0001F5B0\\\\U0001F5B3-\\\\U0001F5BB\\\\U0001F5BD-\\\\U0001F5C1\\\\U0001F5C5-\\\\U0001F5D0\\\\U0001F5D4-\\\\U0001F5DB\\\\U0001F5DF-\\\\U0001F5E0\\\\U0001F5E2\\\\U0001F5E4-\\\\U0001F5E7\\\\U0001F5E9-\\\\U0001F5EE\\\\U0001F5F0-\\\\U0001F5F2\\\\U0001F5F4-\\\\U0001F5F9\\u2605\\u2607-\\u260D\\u260F-\\u2610\\u2612\\u2616-\\u2617\\u2619-\\u261C\\u261E-\\u261F\\u2621\\u2624-\\u2625\\u2627-\\u2629\\u262B-\\u262D\\u2630-\\u2637\\u263B-\\u2647\\u2654-\\u265F\\u2661-\\u2662\\u2664\\u2667\\u2669-\\u267A\\u267C-\\u267E\\u2680-\\u2691\\u2695\\u2698\\u269A\\u269D-\\u269F\\u26A2-\\u26A9\\u26AC-\\u26AF\\u26B2-\\u26BC\\u26BF-\\u26C3\\u26C6-\\u26C7\\u26C9-\\u26CD\\u26D0\\u26D2\\u26D5-\\u26E8\\u26EB-\\u26EF\\u26F6\\u26FB-\\u26FC\\u26FE-\\u26FF\\u2388\\\\U0001FA00-\\\\U0001FFFD\\\\U0001F0A0-\\\\U0001F0AE\\\\U0001F0B1-\\\\U0001F0BF\\\\U0001F0C1-\\\\U0001F0CF\\\\U0001F0D1-\\\\U0001F0F5\\\\U0001F0AF-\\\\U0001F0B0\\\\U0001F0C0\\\\U0001F0D0\\\\U0001F0F6-\\\\U0001F0FF\\\\U0001F80C-\\\\U0001F80F\\\\U0001F848-\\\\U0001F84F\\\\U0001F85A-\\\\U0001F85F\\\\U0001F888-\\\\U0001F88F\\\\U0001F8AE-\\\\U0001F8FF\\\\U0001F900-\\\\U0001F90F\\\\U0001F91F\\\\U0001F928-\\\\U0001F92F\\\\U0001F931-\\\\U0001F932\\\\U0001F93F\\\\U0001F94C-\\\\U0001F94F\\\\U0001F95F-\\\\U0001F97F\\\\U0001F992-\\\\U0001F9BF\\\\U0001F9C1-\\\\U0001F9FF\\\\U0001F6C6-\\\\U0001F6CA\\\\U0001F6E6-\\\\U0001F6E8\\\\U0001F6EA\\\\U0001F6F1-\\\\U0001F6F2\\\\U0001F6D3-\\\\U0001F6DF\\\\U0001F6ED-\\\\U0001F6EF\\\\U0001F6F7-\\\\U0001F6FF]"
+            "$EBG": "\\\\p{Grapheme_Cluster_Break=E_Base_GAZ}"
           },
           {
-            "$E_Base_GAZ": "\\\\p{Grapheme_Cluster_Break = EBG}"
+            "$Extended_Pict": "[\\u2388\\u2605\\u2607-\\u260D\\u260F-\\u2610\\u2612\\u2616-\\u2617\\u2619-\\u261C\\u261E-\\u261F\\u2621\\u2624-\\u2625\\u2627-\\u2629\\u262B-\\u262D\\u2630-\\u2637\\u263B-\\u2647\\u2654-\\u265F\\u2661-\\u2662\\u2664\\u2667\\u2669-\\u267A\\u267C-\\u267E\\u2680-\\u2691\\u2695\\u2698\\u269A\\u269D-\\u269F\\u26A2-\\u26A9\\u26AC-\\u26AF\\u26B2-\\u26BC\\u26BF-\\u26C3\\u26C6-\\u26C7\\u26C9-\\u26CD\\u26D0\\u26D2\\u26D5-\\u26E8\\u26EB-\\u26EF\\u26F6\\u26FB-\\u26FC\\u26FE-\\u2701\\u2703-\\u2704\\u270E\\u2710-\\u2711\\u2765-\\u2767\\\\U0001F000-\\\\U0001F003\\\\U0001F005-\\\\U0001F0FF\\\\U0001F10D-\\\\U0001F10F\\\\U0001F12F\\\\U0001F16C-\\\\U0001F16F\\\\U0001F1AD-\\\\U0001F1E5\\\\U0001F203-\\\\U0001F20F\\\\U0001F23C-\\\\U0001F23F\\\\U0001F249-\\\\U0001F24F\\\\U0001F252-\\\\U0001F2FF\\\\U0001F322-\\\\U0001F323\\\\U0001F394-\\\\U0001F395\\\\U0001F398\\\\U0001F39C-\\\\U0001F39D\\\\U0001F3F1-\\\\U0001F3F2\\\\U0001F3F6\\\\U0001F4FE\\\\U0001F53E-\\\\U0001F548\\\\U0001F54F\\\\U0001F568-\\\\U0001F56E\\\\U0001F571-\\\\U0001F572\\\\U0001F57B-\\\\U0001F586\\\\U0001F588-\\\\U0001F589\\\\U0001F58E-\\\\U0001F58F\\\\U0001F591-\\\\U0001F594\\\\U0001F597-\\\\U0001F5A3\\\\U0001F5A6-\\\\U0001F5A7\\\\U0001F5A9-\\\\U0001F5B0\\\\U0001F5B3-\\\\U0001F5BB\\\\U0001F5BD-\\\\U0001F5C1\\\\U0001F5C5-\\\\U0001F5D0\\\\U0001F5D4-\\\\U0001F5DB\\\\U0001F5DF-\\\\U0001F5E0\\\\U0001F5E2\\\\U0001F5E4-\\\\U0001F5E7\\\\U0001F5E9-\\\\U0001F5EE\\\\U0001F5F0-\\\\U0001F5F2\\\\U0001F5F4-\\\\U0001F5F9\\\\U0001F6C6-\\\\U0001F6CA\\\\U0001F6D3-\\\\U0001F6DF\\\\U0001F6E6-\\\\U0001F6E8\\\\U0001F6EA\\\\U0001F6ED-\\\\U0001F6EF\\\\U0001F6F1-\\\\U0001F6F2\\\\U0001F6F7-\\\\U0001F6FF\\\\U0001F774-\\\\U0001F77F\\\\U0001F7D5-\\\\U0001F7FF\\\\U0001F80C-\\\\U0001F80F\\\\U0001F848-\\\\U0001F84F\\\\U0001F85A-\\\\U0001F85F\\\\U0001F888-\\\\U0001F88F\\\\U0001F8AE-\\\\U0001F90F\\\\U0001F91F\\\\U0001F928-\\\\U0001F92F\\\\U0001F931-\\\\U0001F932\\\\U0001F93F\\\\U0001F94C-\\\\U0001F94F\\\\U0001F95F-\\\\U0001F97F\\\\U0001F992-\\\\U0001F9BF\\\\U0001F9C1-\\\\U0001FFFD]"
           },
           {
             "$EmojiNRK": "[[\\\\p{Emoji}] - [\\\\p{Grapheme_Cluster_Break=Regional_Indicator}*\\u00230-9©®™〰〽]]"
@@ -75,10 +75,10 @@
           "9": " × ($Extend | $ZWJ) ",
           "9.1": " × $SpacingMark ",
           "9.2": " $Prepend × ",
-          "10": " ($E_Base | $E_Base_GAZ) $Extend* × $E_Modifier ",
+          "10": " ($E_Base | $EBG) $Extend* × $E_Modifier ",
           "11": " ($Extended_Pict | $EmojiNRK) $Extend* $ZWJ × ($Extended_Pict | $EmojiNRK) ",
-          "12": " ^$Prepend* $Regional_Indicator $Regional_Indicator ÷ $Regional_Indicator ",
-          "13": " ^$Prepend* $Regional_Indicator × $Regional_Indicator "
+          "12": " ^ ($RI $RI)* $RI × $RI ",
+          "13": " [^$RI] ($RI $RI)* $RI × $RI "
         }
       },
       "LineBreak": {
@@ -108,10 +108,10 @@
             "$CL": "\\\\p{Line_Break=Close_Punctuation}"
           },
           {
-            "$CP": "\\\\p{Line_Break=Close_Parenthesis}"
+            "$CP": "\\\\p{Line_Break=CP}"
           },
           {
-            "$CM": "\\\\p{Line_Break=Combining_Mark}"
+            "$CM1": "\\\\p{Line_Break=Combining_Mark}"
           },
           {
             "$CR": "\\\\p{Line_Break=Carriage_Return}"
@@ -129,7 +129,7 @@
             "$H3": "\\\\p{Line_Break=H3}"
           },
           {
-            "$HL": "\\\\p{Line_Break=Hebrew_Letter}"
+            "$HL": "\\\\p{Line_Break=HL}"
           },
           {
             "$HY": "\\\\p{Line_Break=Hyphen}"
@@ -204,10 +204,13 @@
             "$RI": "\\\\p{Line_Break=Regional_Indicator}"
           },
           {
-            "$EB": "[[\\\\p{Line_Break=EB}]\\\\U0001F3C2\\\\U0001F3C7\\\\U0001F3CC\\\\U0001F46A-\\\\U0001F46D\\\\U0001F46F\\\\U0001F574\\\\U0001F6CC]"
+            "$EB": "\\\\p{Line_Break=E_Base}"
           },
           {
-            "$EM": "\\\\p{Line_Break=EM}"
+            "$EM": "\\\\p{Line_Break=E_Modifier}"
+          },
+          {
+            "$ZWJ_O": "\\\\p{Line_Break=ZWJ}"
           },
           {
             "$ZWJ": "\\\\p{Line_Break=ZWJ}"
@@ -216,16 +219,19 @@
             "$EmojiNRK": "[[\\\\p{Emoji}] - [$RI \\u002a\\u00230-9©®™〰〽]]"
           },
           {
-            "$Extended_Pict": "[\\\\U0001F774-\\\\U0001F77F\\u2700-\\u2701\\u2703-\\u2704\\u270E\\u2710-\\u2711\\u2765-\\u2767\\\\U0001F030-\\\\U0001F093\\\\U0001F094-\\\\U0001F09F\\\\U0001F10D-\\\\U0001F10F\\\\U0001F12F\\\\U0001F16C-\\\\U0001F16F\\\\U0001F1AD-\\\\U0001F1E5\\\\U0001F203-\\\\U0001F20F\\\\U0001F23C-\\\\U0001F23F\\\\U0001F249-\\\\U0001F24F\\\\U0001F252-\\\\U0001F2FF\\\\U0001F7D5-\\\\U0001F7FF\\\\U0001F000-\\\\U0001F003\\\\U0001F005-\\\\U0001F02B\\\\U0001F02C-\\\\U0001F02F\\\\U0001F322-\\\\U0001F323\\\\U0001F394-\\\\U0001F395\\\\U0001F398\\\\U0001F39C-\\\\U0001F39D\\\\U0001F3F1-\\\\U0001F3F2\\\\U0001F3F6\\\\U0001F4FE\\\\U0001F53E-\\\\U0001F548\\\\U0001F54F\\\\U0001F568-\\\\U0001F56E\\\\U0001F571-\\\\U0001F572\\\\U0001F57B-\\\\U0001F586\\\\U0001F588-\\\\U0001F589\\\\U0001F58E-\\\\U0001F58F\\\\U0001F591-\\\\U0001F594\\\\U0001F597-\\\\U0001F5A3\\\\U0001F5A6-\\\\U0001F5A7\\\\U0001F5A9-\\\\U0001F5B0\\\\U0001F5B3-\\\\U0001F5BB\\\\U0001F5BD-\\\\U0001F5C1\\\\U0001F5C5-\\\\U0001F5D0\\\\U0001F5D4-\\\\U0001F5DB\\\\U0001F5DF-\\\\U0001F5E0\\\\U0001F5E2\\\\U0001F5E4-\\\\U0001F5E7\\\\U0001F5E9-\\\\U0001F5EE\\\\U0001F5F0-\\\\U0001F5F2\\\\U0001F5F4-\\\\U0001F5F9\\u2605\\u2607-\\u260D\\u260F-\\u2610\\u2612\\u2616-\\u2617\\u2619-\\u261C\\u261E-\\u261F\\u2621\\u2624-\\u2625\\u2627-\\u2629\\u262B-\\u262D\\u2630-\\u2637\\u263B-\\u2647\\u2654-\\u265F\\u2661-\\u2662\\u2664\\u2667\\u2669-\\u267A\\u267C-\\u267E\\u2680-\\u2691\\u2695\\u2698\\u269A\\u269D-\\u269F\\u26A2-\\u26A9\\u26AC-\\u26AF\\u26B2-\\u26BC\\u26BF-\\u26C3\\u26C6-\\u26C7\\u26C9-\\u26CD\\u26D0\\u26D2\\u26D5-\\u26E8\\u26EB-\\u26EF\\u26F6\\u26FB-\\u26FC\\u26FE-\\u26FF\\u2388\\\\U0001FA00-\\\\U0001FFFD\\\\U0001F0A0-\\\\U0001F0AE\\\\U0001F0B1-\\\\U0001F0BF\\\\U0001F0C1-\\\\U0001F0CF\\\\U0001F0D1-\\\\U0001F0F5\\\\U0001F0AF-\\\\U0001F0B0\\\\U0001F0C0\\\\U0001F0D0\\\\U0001F0F6-\\\\U0001F0FF\\\\U0001F80C-\\\\U0001F80F\\\\U0001F848-\\\\U0001F84F\\\\U0001F85A-\\\\U0001F85F\\\\U0001F888-\\\\U0001F88F\\\\U0001F8AE-\\\\U0001F8FF\\\\U0001F900-\\\\U0001F90F\\\\U0001F91F\\\\U0001F928-\\\\U0001F92F\\\\U0001F931-\\\\U0001F932\\\\U0001F93F\\\\U0001F94C-\\\\U0001F94F\\\\U0001F95F-\\\\U0001F97F\\\\U0001F992-\\\\U0001F9BF\\\\U0001F9C1-\\\\U0001F9FF\\\\U0001F6C6-\\\\U0001F6CA\\\\U0001F6E6-\\\\U0001F6E8\\\\U0001F6EA\\\\U0001F6F1-\\\\U0001F6F2\\\\U0001F6D3-\\\\U0001F6DF\\\\U0001F6ED-\\\\U0001F6EF\\\\U0001F6F7-\\\\U0001F6FF]"
+            "$Extended_Pict": "[\\u2388\\u2605\\u2607-\\u260D\\u260F-\\u2610\\u2612\\u2616-\\u2617\\u2619-\\u261C\\u261E-\\u261F\\u2621\\u2624-\\u2625\\u2627-\\u2629\\u262B-\\u262D\\u2630-\\u2637\\u263B-\\u2647\\u2654-\\u265F\\u2661-\\u2662\\u2664\\u2667\\u2669-\\u267A\\u267C-\\u267E\\u2680-\\u2691\\u2695\\u2698\\u269A\\u269D-\\u269F\\u26A2-\\u26A9\\u26AC-\\u26AF\\u26B2-\\u26BC\\u26BF-\\u26C3\\u26C6-\\u26C7\\u26C9-\\u26CD\\u26D0\\u26D2\\u26D5-\\u26E8\\u26EB-\\u26EF\\u26F6\\u26FB-\\u26FC\\u26FE-\\u2701\\u2703-\\u2704\\u270E\\u2710-\\u2711\\u2765-\\u2767\\\\U0001F000-\\\\U0001F003\\\\U0001F005-\\\\U0001F0FF\\\\U0001F10D-\\\\U0001F10F\\\\U0001F12F\\\\U0001F16C-\\\\U0001F16F\\\\U0001F1AD-\\\\U0001F1E5\\\\U0001F203-\\\\U0001F20F\\\\U0001F23C-\\\\U0001F23F\\\\U0001F249-\\\\U0001F24F\\\\U0001F252-\\\\U0001F2FF\\\\U0001F322-\\\\U0001F323\\\\U0001F394-\\\\U0001F395\\\\U0001F398\\\\U0001F39C-\\\\U0001F39D\\\\U0001F3F1-\\\\U0001F3F2\\\\U0001F3F6\\\\U0001F4FE\\\\U0001F53E-\\\\U0001F548\\\\U0001F54F\\\\U0001F568-\\\\U0001F56E\\\\U0001F571-\\\\U0001F572\\\\U0001F57B-\\\\U0001F586\\\\U0001F588-\\\\U0001F589\\\\U0001F58E-\\\\U0001F58F\\\\U0001F591-\\\\U0001F594\\\\U0001F597-\\\\U0001F5A3\\\\U0001F5A6-\\\\U0001F5A7\\\\U0001F5A9-\\\\U0001F5B0\\\\U0001F5B3-\\\\U0001F5BB\\\\U0001F5BD-\\\\U0001F5C1\\\\U0001F5C5-\\\\U0001F5D0\\\\U0001F5D4-\\\\U0001F5DB\\\\U0001F5DF-\\\\U0001F5E0\\\\U0001F5E2\\\\U0001F5E4-\\\\U0001F5E7\\\\U0001F5E9-\\\\U0001F5EE\\\\U0001F5F0-\\\\U0001F5F2\\\\U0001F5F4-\\\\U0001F5F9\\\\U0001F6C6-\\\\U0001F6CA\\\\U0001F6D3-\\\\U0001F6DF\\\\U0001F6E6-\\\\U0001F6E8\\\\U0001F6EA\\\\U0001F6ED-\\\\U0001F6EF\\\\U0001F6F1-\\\\U0001F6F2\\\\U0001F6F7-\\\\U0001F6FF\\\\U0001F774-\\\\U0001F77F\\\\U0001F7D5-\\\\U0001F7FF\\\\U0001F80C-\\\\U0001F80F\\\\U0001F848-\\\\U0001F84F\\\\U0001F85A-\\\\U0001F85F\\\\U0001F888-\\\\U0001F88F\\\\U0001F8AE-\\\\U0001F90F\\\\U0001F91F\\\\U0001F928-\\\\U0001F92F\\\\U0001F931-\\\\U0001F932\\\\U0001F93F\\\\U0001F94C-\\\\U0001F94F\\\\U0001F95F-\\\\U0001F97F\\\\U0001F992-\\\\U0001F9BF\\\\U0001F9C1-\\\\U0001FFFD]"
           },
           {
-            "$AL": "[$AL $AI $SG $XX [$SA-[[:Mn:][:Mc:]]]]"
+            "$CM": "[$CM1 $ZWJ]"
           },
           {
-            "$NS": "[$NS $CJ]"
+            "$AL": "[$AI $AL $SG $XX [$SA-[[:Mn:][:Mc:]]]]"
           },
           {
             "$CM": "[$CM $ZWJ [$SA & [[:Mn:][:Mc:]]]]"
+          },
+          {
+            "$NS": "[$NS $CJ]"
           },
           {
             "$X": "$CM*"
@@ -271,6 +277,9 @@
           },
           {
             "$CM": "($CM $X)"
+          },
+          {
+            "$EX": "($EX $X)"
           },
           {
             "$GL": "($GL $X)"
@@ -348,6 +357,9 @@
             "$EM": "($EM $X)"
           },
           {
+            "$ZWJ": "($ZWJ $X)"
+          },
+          {
             "$EmojiNRK": "($EmojiNRK $X)"
           },
           {
@@ -367,14 +379,14 @@
           "7.01": " × $SP ",
           "7.02": " × $ZW ",
           "8": " $ZW $SP* ÷ ",
-          "8.1": " $ZWJ × ($ID | $Extended_Pict | $EmojiNRK) ",
+          "8.1": " $ZWJ_0 × ($ID | $Extended_Pict | $EmojiNRK) ",
           "9": " $Spec2_ × $CM ",
           "11.01": " × $WJ ",
           "11.02": " $WJ × ",
-          "12.01": " $GL × ",
-          "12.11": " $Spec3a_ × $GL ",
-          "12.12": " $Spec3b_ $CM+ × $GL ",
-          "12.13": " ^ $CM+ × $GL ",
+          "12": " $GL × ",
+          "12.1": " $Spec3a_ × $GL ",
+          "12.2": " $Spec3b_ $CM+ × $GL ",
+          "12.3": " ^ $CM+ × $GL ",
           "13.01": " × $EX ",
           "13.02": " $Spec4_ × ($CL | $CP | $IS | $SY) ",
           "13.03": " $Spec4_ $CM+ × ($CL | $CP | $IS | $SY) ",
@@ -395,34 +407,35 @@
           "21.1": " $HL ($HY | $BA) × ",
           "21.2": " $SY × $HL ",
           "22.01": " ($AL | $HL) × $IN ",
-          "22.02": " ($ID | $EB | $EM) × $IN ",
-          "22.03": " $IN × $IN ",
-          "22.04": " $NU × $IN ",
-          "22.05": " $EX × $IN ",
-          "23.01": " ($AL | $HL) × $NU ",
-          "23.02": " $NU × ($AL | $HL) ",
-          "23.11": " $PR × ($ID | $EB | $EM) ",
-          "23.12": " ($ID | $EB | $EM) × $PO ",
-          "24.01": " ($PR | $PO) × ($AL | $HL) ",
-          "24.02": " ($AL | $HL) × ($PR | $PO) ",
+          "22.02": " $EX × $IN ",
+          "22.03": " ($ID | $EB | $EM) × $IN ",
+          "22.04": " $IN × $IN ",
+          "22.05": " $NU × $IN ",
+          "23.02": " ($AL | $HL) × $NU ",
+          "23.03": " $NU × ($AL | $HL) ",
+          "23.12": " $PR × ($ID | $EB | $EM) ",
+          "23.13": " ($ID | $EB | $EM) × $PO ",
+          "24.02": " ($PR | $PO) × ($AL | $HL) ",
+          "24.03": " ($AL | $HL) × ($PR | $PO) ",
           "25.01": " ($PR | $PO) × ( $OP | $HY )? $NU ",
           "25.02": " ( $OP | $HY ) × $NU ",
           "25.03": " $NU × ($NU | $SY | $IS) ",
           "25.04": " $NU ($NU | $SY | $IS)* × ($NU | $SY | $IS | $CL | $CP) ",
           "25.05": " $NU ($NU | $SY | $IS)* ($CL | $CP)? × ($PO | $PR) ",
-          "26.01": " $JL × ($JL | $JV | $H2 | $H3) ",
-          "26.02": " ($JV | $H2) × ($JV | $JT) ",
-          "26.03": " ($JT | $H3) × $JT ",
-          "27.01": " ($JL | $JV | $JT | $H2 | $H3) × $IN ",
-          "27.02": " ($JL | $JV | $JT | $H2 | $H3) × $PO ",
-          "27.03": " $PR × ($JL | $JV | $JT | $H2 | $H3) ",
+          "26.01": " $JL × $JL | $JV | $H2 | $H3 ",
+          "26.02": " $JV | $H2 × $JV | $JT ",
+          "26.03": " $JT | $H3 × $JT ",
+          "27.01": " $JL | $JV | $JT | $H2 | $H3 × $IN ",
+          "27.02": " $JL | $JV | $JT | $H2 | $H3 × $PO ",
+          "27.03": " $PR × $JL | $JV | $JT | $H2 | $H3 ",
           "28": " ($AL | $HL) × ($AL | $HL) ",
           "29": " $IS × ($AL | $HL) ",
           "30.01": " ($AL | $HL | $NU) × $OP ",
           "30.02": " $CP × ($AL | $HL | $NU) ",
-          "30.11": " sot ($RI $RI)* $RI × $RI ",
+          "30.11": " ^ ($RI $RI)* $RI × $RI ",
           "30.12": " [^$RI] ($RI $RI)* $RI × $RI ",
-          "30.21": " $EB × $EM "
+          "30.13": " $RI ÷ $RI ",
+          "30.2": " $EB × $EM "
         }
       },
       "SentenceBreak": {
@@ -504,20 +517,26 @@
           },
           {
             "$SContinue": "($SContinue $FE*)"
+          },
+          {
+            "$ParaSep": "($Sep | $CR | $LF)"
+          },
+          {
+            "$SATerm": "($STerm | $ATerm)"
           }
         ],
         "segmentRules": {
           "3": " $CR × $LF ",
-          "4": " ($Sep | $CR | $LF) ÷ ",
+          "4": " $ParaSep ÷ ",
           "5": " × [$Format $Extend] ",
           "6": " $ATerm × $Numeric ",
           "7": " ($Upper | $Lower) $ATerm × $Upper ",
           "8": " $ATerm $Close* $Sp* × $NotPreLower_* $Lower ",
-          "8.1": " ($STerm | $ATerm) $Close* $Sp* × ($SContinue | $STerm | $ATerm) ",
-          "9": " ( $STerm | $ATerm ) $Close* × ( $Close | $Sp | $Sep | $CR | $LF ) ",
-          "10": " ( $STerm | $ATerm ) $Close* $Sp* × ( $Sp | $Sep | $CR | $LF ) ",
-          "11": " ( $STerm | $ATerm ) $Close* $Sp* ($Sep | $CR | $LF)? ÷ ",
-          "12": " × $Any "
+          "8.1": " $SATerm $Close* $Sp* × ($SContinue | $SATerm) ",
+          "9": " $SATerm $Close* × ( $Close | $Sp | $ParaSep ) ",
+          "10": " $SATerm $Close* $Sp* × ( $Sp | $ParaSep ) ",
+          "11": " $SATerm $Close* $Sp* $ParaSep? ÷ ",
+          "998": " × $Any "
         },
         "standard": {}
       },
@@ -536,28 +555,13 @@
             "$Extend": "\\\\p{Word_Break=Extend}"
           },
           {
-            "$ZWJ": "\\\\p{Word_Break=ZWJ}"
-          },
-          {
             "$Format": "\\\\p{Word_Break=Format}"
           },
           {
             "$Katakana": "\\\\p{Word_Break=Katakana}"
           },
           {
-            "$Hebrew_Letter": "\\\\p{Word_Break=Hebrew_Letter}"
-          },
-          {
             "$ALetter": "\\\\p{Word_Break=ALetter}"
-          },
-          {
-            "$Single_Quote": "\\\\p{Word_Break=Single_Quote}"
-          },
-          {
-            "$Double_Quote": "\\\\p{Word_Break=Double_Quote}"
-          },
-          {
-            "$MidNumLet": "\\\\p{Word_Break=MidNumLet}"
           },
           {
             "$MidLetter": "\\\\p{Word_Break=MidLetter}"
@@ -566,73 +570,94 @@
             "$MidNum": "\\\\p{Word_Break=MidNum}"
           },
           {
+            "$MidNumLet": "\\\\p{Word_Break=MidNumLet}"
+          },
+          {
             "$Numeric": "\\\\p{Word_Break=Numeric}"
           },
           {
             "$ExtendNumLet": "\\\\p{Word_Break=ExtendNumLet}"
           },
           {
-            "$Regional_Indicator": "\\\\p{Word_Break=Regional_Indicator}"
+            "$RI": "\\\\p{Word_Break=Regional_Indicator}"
           },
           {
-            "$E_Base": "[\\\\p{Word_Break = EB}\\\\U0001F3C2\\\\U0001F3C7\\\\U0001F3CC\\\\U0001F46A-\\\\U0001F46D\\\\U0001F46F\\\\U0001F574\\\\U0001F6CC]"
+            "$Hebrew_Letter": "\\\\p{Word_Break=Hebrew_Letter}"
           },
           {
-            "$E_Modifier": "\\\\p{Word_Break=EM}"
+            "$Double_Quote": "\\\\p{Word_Break=Double_Quote}"
           },
           {
-            "$Extended_Pict": "[\\\\U0001F774-\\\\U0001F77F\\u2700-\\u2701\\u2703-\\u2704\\u270E\\u2710-\\u2711\\u2765-\\u2767\\\\U0001F030-\\\\U0001F093\\\\U0001F094-\\\\U0001F09F\\\\U0001F10D-\\\\U0001F10F\\\\U0001F12F\\\\U0001F16C-\\\\U0001F16F\\\\U0001F1AD-\\\\U0001F1E5\\\\U0001F203-\\\\U0001F20F\\\\U0001F23C-\\\\U0001F23F\\\\U0001F249-\\\\U0001F24F\\\\U0001F252-\\\\U0001F2FF\\\\U0001F7D5-\\\\U0001F7FF\\\\U0001F000-\\\\U0001F003\\\\U0001F005-\\\\U0001F02B\\\\U0001F02C-\\\\U0001F02F\\\\U0001F322-\\\\U0001F323\\\\U0001F394-\\\\U0001F395\\\\U0001F398\\\\U0001F39C-\\\\U0001F39D\\\\U0001F3F1-\\\\U0001F3F2\\\\U0001F3F6\\\\U0001F4FE\\\\U0001F53E-\\\\U0001F548\\\\U0001F54F\\\\U0001F568-\\\\U0001F56E\\\\U0001F571-\\\\U0001F572\\\\U0001F57B-\\\\U0001F586\\\\U0001F588-\\\\U0001F589\\\\U0001F58E-\\\\U0001F58F\\\\U0001F591-\\\\U0001F594\\\\U0001F597-\\\\U0001F5A3\\\\U0001F5A6-\\\\U0001F5A7\\\\U0001F5A9-\\\\U0001F5B0\\\\U0001F5B3-\\\\U0001F5BB\\\\U0001F5BD-\\\\U0001F5C1\\\\U0001F5C5-\\\\U0001F5D0\\\\U0001F5D4-\\\\U0001F5DB\\\\U0001F5DF-\\\\U0001F5E0\\\\U0001F5E2\\\\U0001F5E4-\\\\U0001F5E7\\\\U0001F5E9-\\\\U0001F5EE\\\\U0001F5F0-\\\\U0001F5F2\\\\U0001F5F4-\\\\U0001F5F9\\u2605\\u2607-\\u260D\\u260F-\\u2610\\u2612\\u2616-\\u2617\\u2619-\\u261C\\u261E-\\u261F\\u2621\\u2624-\\u2625\\u2627-\\u2629\\u262B-\\u262D\\u2630-\\u2637\\u263B-\\u2647\\u2654-\\u265F\\u2661-\\u2662\\u2664\\u2667\\u2669-\\u267A\\u267C-\\u267E\\u2680-\\u2691\\u2695\\u2698\\u269A\\u269D-\\u269F\\u26A2-\\u26A9\\u26AC-\\u26AF\\u26B2-\\u26BC\\u26BF-\\u26C3\\u26C6-\\u26C7\\u26C9-\\u26CD\\u26D0\\u26D2\\u26D5-\\u26E8\\u26EB-\\u26EF\\u26F6\\u26FB-\\u26FC\\u26FE-\\u26FF\\u2388\\\\U0001FA00-\\\\U0001FFFD\\\\U0001F0A0-\\\\U0001F0AE\\\\U0001F0B1-\\\\U0001F0BF\\\\U0001F0C1-\\\\U0001F0CF\\\\U0001F0D1-\\\\U0001F0F5\\\\U0001F0AF-\\\\U0001F0B0\\\\U0001F0C0\\\\U0001F0D0\\\\U0001F0F6-\\\\U0001F0FF\\\\U0001F80C-\\\\U0001F80F\\\\U0001F848-\\\\U0001F84F\\\\U0001F85A-\\\\U0001F85F\\\\U0001F888-\\\\U0001F88F\\\\U0001F8AE-\\\\U0001F8FF\\\\U0001F900-\\\\U0001F90F\\\\U0001F91F\\\\U0001F928-\\\\U0001F92F\\\\U0001F931-\\\\U0001F932\\\\U0001F93F\\\\U0001F94C-\\\\U0001F94F\\\\U0001F95F-\\\\U0001F97F\\\\U0001F992-\\\\U0001F9BF\\\\U0001F9C1-\\\\U0001F9FF\\\\U0001F6C6-\\\\U0001F6CA\\\\U0001F6E6-\\\\U0001F6E8\\\\U0001F6EA\\\\U0001F6F1-\\\\U0001F6F2\\\\U0001F6D3-\\\\U0001F6DF\\\\U0001F6ED-\\\\U0001F6EF\\\\U0001F6F7-\\\\U0001F6FF]"
+            "$Single_Quote": "\\\\p{Word_Break=Single_Quote}"
           },
           {
-            "$EBG": "\\\\p{Word_Break=EBG}"
+            "$E_Base": "\\\\p{Word_Break=E_Base}"
+          },
+          {
+            "$E_Modifier": "\\\\p{Word_Break=E_Modifier}"
+          },
+          {
+            "$ZWJ": "\\\\p{Word_Break=ZWJ}"
+          },
+          {
+            "$EBG": "\\\\p{Word_Break=E_Base_GAZ}"
+          },
+          {
+            "$Extended_Pict": "[\\u2388\\u2605\\u2607-\\u260D\\u260F-\\u2610\\u2612\\u2616-\\u2617\\u2619-\\u261C\\u261E-\\u261F\\u2621\\u2624-\\u2625\\u2627-\\u2629\\u262B-\\u262D\\u2630-\\u2637\\u263B-\\u2647\\u2654-\\u265F\\u2661-\\u2662\\u2664\\u2667\\u2669-\\u267A\\u267C-\\u267E\\u2680-\\u2691\\u2695\\u2698\\u269A\\u269D-\\u269F\\u26A2-\\u26A9\\u26AC-\\u26AF\\u26B2-\\u26BC\\u26BF-\\u26C3\\u26C6-\\u26C7\\u26C9-\\u26CD\\u26D0\\u26D2\\u26D5-\\u26E8\\u26EB-\\u26EF\\u26F6\\u26FB-\\u26FC\\u26FE-\\u2701\\u2703-\\u2704\\u270E\\u2710-\\u2711\\u2765-\\u2767\\\\U0001F000-\\\\U0001F003\\\\U0001F005-\\\\U0001F0FF\\\\U0001F10D-\\\\U0001F10F\\\\U0001F12F\\\\U0001F16C-\\\\U0001F16F\\\\U0001F1AD-\\\\U0001F1E5\\\\U0001F203-\\\\U0001F20F\\\\U0001F23C-\\\\U0001F23F\\\\U0001F249-\\\\U0001F24F\\\\U0001F252-\\\\U0001F2FF\\\\U0001F322-\\\\U0001F323\\\\U0001F394-\\\\U0001F395\\\\U0001F398\\\\U0001F39C-\\\\U0001F39D\\\\U0001F3F1-\\\\U0001F3F2\\\\U0001F3F6\\\\U0001F4FE\\\\U0001F53E-\\\\U0001F548\\\\U0001F54F\\\\U0001F568-\\\\U0001F56E\\\\U0001F571-\\\\U0001F572\\\\U0001F57B-\\\\U0001F586\\\\U0001F588-\\\\U0001F589\\\\U0001F58E-\\\\U0001F58F\\\\U0001F591-\\\\U0001F594\\\\U0001F597-\\\\U0001F5A3\\\\U0001F5A6-\\\\U0001F5A7\\\\U0001F5A9-\\\\U0001F5B0\\\\U0001F5B3-\\\\U0001F5BB\\\\U0001F5BD-\\\\U0001F5C1\\\\U0001F5C5-\\\\U0001F5D0\\\\U0001F5D4-\\\\U0001F5DB\\\\U0001F5DF-\\\\U0001F5E0\\\\U0001F5E2\\\\U0001F5E4-\\\\U0001F5E7\\\\U0001F5E9-\\\\U0001F5EE\\\\U0001F5F0-\\\\U0001F5F2\\\\U0001F5F4-\\\\U0001F5F9\\\\U0001F6C6-\\\\U0001F6CA\\\\U0001F6D3-\\\\U0001F6DF\\\\U0001F6E6-\\\\U0001F6E8\\\\U0001F6EA\\\\U0001F6ED-\\\\U0001F6EF\\\\U0001F6F1-\\\\U0001F6F2\\\\U0001F6F7-\\\\U0001F6FF\\\\U0001F774-\\\\U0001F77F\\\\U0001F7D5-\\\\U0001F7FF\\\\U0001F80C-\\\\U0001F80F\\\\U0001F848-\\\\U0001F84F\\\\U0001F85A-\\\\U0001F85F\\\\U0001F888-\\\\U0001F88F\\\\U0001F8AE-\\\\U0001F90F\\\\U0001F91F\\\\U0001F928-\\\\U0001F92F\\\\U0001F931-\\\\U0001F932\\\\U0001F93F\\\\U0001F94C-\\\\U0001F94F\\\\U0001F95F-\\\\U0001F97F\\\\U0001F992-\\\\U0001F9BF\\\\U0001F9C1-\\\\U0001FFFD]"
           },
           {
             "$EmojiNRK": "[[\\\\p{Emoji}] - [\\\\p{Word_Break=Regional_Indicator}\\u002a\\u00230-9©®™〰〽]]"
           },
           {
-            "$FEZ": "[$Format $Extend $ZWJ]"
+            "$AHLetter": "($ALetter | $Hebrew_Letter)"
+          },
+          {
+            "$MidNumLetQ": "($MidNumLet | $Single_Quote)"
+          },
+          {
+            "$FE": "[$Format $Extend $ZWJ]"
           },
           {
             "$NotBreak_": "[^ $Newline $CR $LF ]"
           },
           {
-            "$Katakana": "($Katakana $FEZ*)"
+            "$Katakana": "($Katakana $FE*)"
           },
           {
-            "$Hebrew_Letter": "($Hebrew_Letter $FEZ*)"
+            "$ALetter": "($ALetter $FE*)"
           },
           {
-            "$ALetter": "($ALetter $FEZ*)"
+            "$MidLetter": "($MidLetter $FE*)"
           },
           {
-            "$Single_Quote": "($Single_Quote $FEZ*)"
+            "$MidNum": "($MidNum $FE*)"
           },
           {
-            "$Double_Quote": "($Double_Quote $FEZ*)"
+            "$MidNumLet": "($MidNumLet $FE*)"
           },
           {
-            "$MidNumLet": "($MidNumLet $FEZ*)"
+            "$Numeric": "($Numeric $FE*)"
           },
           {
-            "$MidLetter": "($MidLetter $FEZ*)"
+            "$ExtendNumLet": "($ExtendNumLet $FE*)"
           },
           {
-            "$MidNum": "($MidNum $FEZ*)"
+            "$RI": "($RI $FE*)"
           },
           {
-            "$Numeric": "($Numeric $FEZ*)"
+            "$Hebrew_Letter": "($Hebrew_Letter $FE*)"
           },
           {
-            "$ExtendNumLet": "($ExtendNumLet $FEZ*)"
+            "$Double_Quote": "($Double_Quote $FE*)"
           },
           {
-            "$Regional_Indicator": "($Regional_Indicator $FEZ*)"
+            "$Single_Quote": "($Single_Quote $FE*)"
           },
           {
-            "$AHLetter": "[$ALetter $Hebrew_Letter]"
+            "$AHLetter": "($AHLetter $FE*)"
           },
           {
-            "$MidNumLetQ": "[$MidNumLet $Single_Quote]"
+            "$MidNumLetQ": "($MidNumLetQ $FE*)"
           }
         ],
         "segmentRules": {
@@ -640,10 +665,10 @@
           "3.1": " ($Newline | $CR | $LF) ÷ ",
           "3.2": " ÷ ($Newline | $CR | $LF) ",
           "3.3": " $ZWJ × ($Extended_Pict | $EmojiNRK) ",
-          "4": " $NotBreak_ × ($Extend | $Format | $ZWJ)+ ",
+          "4": " $NotBreak_ × [$Format $Extend $ZWJ] ",
           "5": " $AHLetter × $AHLetter ",
           "6": " $AHLetter × ($MidLetter | $MidNumLetQ) $AHLetter ",
-          "7": " $ALetter ($MidLetter | $MidNumLet) × $ALetter ",
+          "7": " $AHLetter ($MidLetter | $MidNumLetQ) × $AHLetter ",
           "7.1": " $Hebrew_Letter × $Single_Quote ",
           "7.2": " $Hebrew_Letter × $Double_Quote $Hebrew_Letter ",
           "7.3": " $Hebrew_Letter $Double_Quote × $Hebrew_Letter ",
@@ -656,7 +681,8 @@
           "13.1": " ($AHLetter | $Numeric | $Katakana | $ExtendNumLet) × $ExtendNumLet ",
           "13.2": " $ExtendNumLet × ($AHLetter | $Numeric | $Katakana) ",
           "14": " ($E_Base | $EBG) ($Format | $Extend | $ZWJ)* × $E_Modifier ",
-          "15": " ^$Regional_Indicator × $Regional_Indicator "
+          "15": " ^ ($RI $RI)* $RI × $RI ",
+          "16": " [^$RI] ($RI $RI)* $RI × $RI "
         }
       }
     }
