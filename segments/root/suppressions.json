@@ -2,8 +2,8 @@
   "segments": {
     "identity": {
       "version": {
-        "_number": "$Revision: 14457 $",
-        "_cldrVersion": "34"
+        "_number": "$Revision: 14932 $",
+        "_cldrVersion": "35"
       },
       "language": "root"
     },
@@ -50,6 +50,12 @@
             "$LVT": "\\\\p{Grapheme_Cluster_Break=LVT}"
           },
           {
+            "$Virama": "[\\\\p{Gujr}\\\\p{sc=Telu}\\\\p{sc=Mlym}\\\\p{sc=Orya}\\\\p{sc=Beng}\\\\p{sc=Deva}&\\\\p{Indic_Syllabic_Category=Virama}]"
+          },
+          {
+            "$LinkingConsonant": "[\\\\p{Gujr}\\\\p{sc=Telu}\\\\p{sc=Mlym}\\\\p{sc=Orya}\\\\p{sc=Beng}\\\\p{sc=Deva}&\\\\p{Indic_Syllabic_Category=Consonant}]"
+          },
+          {
             "$ExtPict": "\\\\p{Extended_Pictographic}"
           },
           {
@@ -66,6 +72,7 @@
           "9": " × ($Extend | $ZWJ) ",
           "9.1": " × $SpacingMark ",
           "9.2": " $Prepend × ",
+          "9.3": " $LinkingConsonant $ExtCccZwj* $Virama $ExtCccZwj* × $LinkingConsonant ",
           "11": " $ExtPict $Extend* $ZWJ × $ExtPict ",
           "12": " ^ ($RI $RI)* $RI × $RI ",
           "13": " [^$RI] ($RI $RI)* $RI × $RI "
@@ -378,7 +385,7 @@
           "19.02": " $QU × ",
           "20.01": " ÷ $CB ",
           "20.02": " $CB ÷ ",
-          "20.09": " $Spec5_ ($HY | $HH) × $AL ",
+          "20.09": " $Spec5_ $HY × $AL ",
           "21.01": " × $BA ",
           "21.02": " × $HY ",
           "21.03": " × $NS ",
@@ -516,8 +523,7 @@
           "10": " $SATerm $Close* $Sp* × ( $Sp | $ParaSep ) ",
           "11": " $SATerm $Close* $Sp* $ParaSep? ÷ ",
           "998": " × $Any "
-        },
-        "standard": {}
+        }
       },
       "WordBreak": {
         "variables": [
