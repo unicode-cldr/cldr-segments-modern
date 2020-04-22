@@ -2,7 +2,7 @@
   "segments": {
     "identity": {
       "version": {
-        "_cldrVersion": "36"
+        "_cldrVersion": "37"
       },
       "language": "root"
     },
@@ -107,6 +107,9 @@
             "$CP": "\\\\p{Line_Break=CP}"
           },
           {
+            "$CP30": "[$CP - [\\\\p{ea=F}\\\\p{ea=W}\\\\p{ea=H}]]"
+          },
+          {
             "$CM1": "\\\\p{Line_Break=Combining_Mark}"
           },
           {
@@ -162,6 +165,9 @@
           },
           {
             "$OP": "\\\\p{Line_Break=Open_Punctuation}"
+          },
+          {
+            "$OP30": "[$OP - [\\\\p{ea=F}\\\\p{ea=W}\\\\p{ea=H}]]"
           },
           {
             "$PO": "\\\\p{Line_Break=Postfix_Numeric}"
@@ -266,6 +272,9 @@
             "$CP": "($CP $X)"
           },
           {
+            "$CP30": "($CP30 $X)"
+          },
+          {
             "$CM": "($CM $X)"
           },
           {
@@ -312,6 +321,9 @@
           },
           {
             "$OP": "($OP $X)"
+          },
+          {
+            "$OP30": "($OP30 $X)"
           },
           {
             "$PO": "($PO $X)"
@@ -391,11 +403,7 @@
           "21.04": " $BB × ",
           "21.1": " $HL ($HY | $BA) × ",
           "21.2": " $SY × $HL ",
-          "22.01": " ($AL | $HL) × $IN ",
-          "22.02": " $EX × $IN ",
-          "22.03": " ($ID | $EB | $EM) × $IN ",
-          "22.04": " $IN × $IN ",
-          "22.05": " $NU × $IN ",
+          "22.01": " × $IN ",
           "23.02": " ($AL | $HL) × $NU ",
           "23.03": " $NU × ($AL | $HL) ",
           "23.12": " $PR × ($ID | $EB | $EM) ",
@@ -415,8 +423,8 @@
           "27.03": " $PR × $JL | $JV | $JT | $H2 | $H3 ",
           "28": " ($AL | $HL) × ($AL | $HL) ",
           "29": " $IS × ($AL | $HL) ",
-          "30.01": " ($AL | $HL | $NU) × $OP ",
-          "30.02": " $CP × ($AL | $HL | $NU) ",
+          "30.01": " ($AL | $HL | $NU) × $OP30 ",
+          "30.02": " $CP30 × ($AL | $HL | $NU) ",
           "30.11": " ^ ($RI $RI)* $RI × $RI ",
           "30.12": " [^$RI] ($RI $RI)* $RI × $RI ",
           "30.13": " $RI ÷ $RI ",
